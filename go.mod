@@ -1,4 +1,4 @@
-module github.com/surajdatir/ibtcore
+module github.com/ibtcore/ibtcore
 
 go 1.23.2
 

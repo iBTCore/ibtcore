@@ -7,9 +7,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/surajdatir/ibtcore/x/pow/handler"
-	"github.com/surajdatir/ibtcore/x/pow/keeper"
-	"github.com/surajdatir/ibtcore/x/pow/types"
+	"github.com/ibtcore/ibtcore/x/pow/handler"
+	"github.com/ibtcore/ibtcore/x/pow/keeper"
+	"github.com/ibtcore/ibtcore/x/pow/types"
 )
 
 type AppModule struct {

@@ -1,7 +1,7 @@
 syntax = "proto3";
 package ibtcore.pow;
 
-option go_package = "github.com/ibtcore/ibtcore/x/pow/types";
+option go_package = "github.com/ibtcore/ibtcore/x/pow/types;types";
 
 // Request message
 message QueryRewardInfoRequest {}

@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/surajdatir/ibtcore/x/pow/keeper"
+	"github.com/ibtcore/ibtcore/x/pow/keeper"
 )
 
 // NewHandler returns a minimal handler function for the pow module.

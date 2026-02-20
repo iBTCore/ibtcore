@@ -5,7 +5,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/surajdatir/ibtcore/x/pow/types"
+	"github.com/ibtcore/ibtcore/x/pow/types"
 )
 
 // Keeper defines the pow module Keeper
