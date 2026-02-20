@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ibtcore.pow;
+
+option go_package = "github.com/ibtcore/ibtcore/x/pow/types";
+
+// Request message
+message QueryRewardInfoRequest {}
+
+// Response message
+message QueryRewardInfoResponse {
+  uint32 miner_percent = 1;
+  uint32 blockshare_percent = 2;
+  string blockshare_address = 3;
+}
+
+// gRPC service
+service Query {
+  rpc RewardInfo(QueryRewardInfoRequest) returns (QueryRewardInfoResponse);
+}
