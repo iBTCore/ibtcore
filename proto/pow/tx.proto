@@ -1,0 +1,10 @@
+syntax = "proto3";
+package pow;
+
+option go_package = "github.com/surajdatir/ibtcore/x/pow/types;types";
+
+message MsgSubmitAggregate {
+  string miner = 1;
+  uint64 share_count = 2;
+  string aggregate_hash = 3;
+}

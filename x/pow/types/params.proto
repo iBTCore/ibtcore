@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package x.pow;
+
+option go_package = "github.com/surajdatir/ibtcore/x/pow/types;types";
+
+// Params for the pow module
+message Params {
+  // existing fields (if any) should be preserved here; add new fields below
+  int64 block_reward = 10;
+  int64 founder_share = 11; // percent (1 means 1)
+  int64 miner_share = 12;   // percent (99 means 99)
+  int64 tx_fee_flat = 13;   // fixed fee per tx in smallest unit
+  int64 tx_fee_founder = 14; // percent (10 means 10)
+  int64 tx_fee_miner = 15;   // percent (90 means 90)
+}
